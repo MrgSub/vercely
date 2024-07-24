@@ -1,0 +1,445 @@
+{
+  "name": "Vercely",
+  "dark": true,
+  "author": "AdamWazzan",
+  "editorScheme": "/Editor.xml",
+  "colors": {
+    "--secondary-background": "#0a0a0a",
+    "--geist-foreground": "#fff",
+    "--geist-background": "#000",
+    "--accents-8": "#fafafa",
+    "--accents-7": "#eaeaea",
+    "--accents-6": "#999",
+    "--accents-5": "#888",
+    "--accents-4": "#666",
+    "--accents-3": "#444",
+    "--accents-2": "#333",
+    "--accents-1": "#111",
+    "--border": "#242424"
+  },
+  "ui": {
+    "*": {
+      "background": "--geist-background",
+      "foreground": "--geist-foreground",
+      "caretForeground": "--geist-forground",
+      "infoForeground": "foreground",
+      "successForeground": "--accents-5",
+      "selectionBackground": "--accents-2",
+      "selectionForeground": "--geist-foreground",
+      "selectionInactiveBackground": "--accents-1",
+      "selectionBackgroundInactive": "--accents-1",
+      "disabledBackground": "--accents-1",
+      "inactiveBackground": "--accents-1",
+      "disabledForeground": "--accents-4",
+      "disabledText": "--accents-4",
+      "inactiveForeground": "--accents-4",
+      "acceleratorForeground": "--accents-7",
+      "acceleratorSelectionForeground": "--accents-7",
+      "errorForeground": "--accents-5",
+      "borderColor": "--border",
+      "disabledBorderColor": "--accents-5",
+      "focusColor": "--accents-5",
+      "focusedBorderColor": "--accents-5",
+      "hoverBorderColor": "--accents-5",
+      "pressedBorderColor": "--accents-5",
+      "separatorColor": "--border",
+      "lineSeparatorColor": "--border"
+    },
+    "ActionButton": {
+      "hoverBackground": "--accents-1",
+      "pressedBackground": "--geist-background",
+      "hoverBorderColor": "--border",
+      "separatorColor": "--border"
+    },
+    "Button": {
+      "startBackground": "--geist-background",
+      "endBackground": "--geist-background",
+      "startBorderColor": "--border",
+      "endBorderColor": "--border",
+      "shadowWidth": 1,
+      "default": {
+        "foreground": "--geist-background",
+        "startBackground": "--accents-7",
+        "endBackground": "--accents-7",
+        "startBorderColor": "--border",
+        "endBorderColor": "--border",
+        "focusedBorderColor": "--border"
+      }
+    },
+    "SegmentedButton": {
+      "selectedStartBorderColor": "--geist-foreground",
+      "selectedEndBorderColor": "--geist-foreground",
+      "selectedButtonColor": "--geist-background",
+      "focusedSelectedButtonColor": "--accents-8"
+    },
+    "Borders": {
+      "color": "--border",
+      "ContrastBorderColor": "--border"
+    },
+    "ComboBox": {
+      "nonEditableBackground": "--geist-background",
+      "modifiedItemForeground": "--geist-foreground",
+      "ArrowButton": {
+        "iconColor": "--geist-foreground",
+        "disabledIconColor": "--accents-5",
+        "nonEditableBackground": "--geist-background"
+      }
+    },
+    "Code": {
+      "Inline": {
+        "backgroundColor": "--geist-background",
+        "backgroundOpacity": 60,
+        "borderColor": "--accents-5",
+        "borderWidth": 1
+      },
+      "Block": {
+        "backgroundColor": "--geist-background",
+        "backgroundOpacity": 100,
+        "borderColor": "--accents-5",
+        "borderWidth": 1,
+        "EditorPane": {
+          "borderColor": "--accents-5",
+          "backgroundColor": "--geist-background",
+          "backgroundOpacity": 100
+        }
+      }
+    },
+    "ComboPopup.border": "1,1,1,1,--accents-7",
+    "CompletionPopup": {
+      "matchForeground": "--geist-foreground",
+      "matchSelectionForeground": "--geist-foreground"
+    },
+    "Component": {
+      "errorFocusColor": "--accents-5",
+      "inactiveErrorFocusColor": "--accents-4",
+      "warningFocusColor": "--accents-3",
+      "inactiveWarningFocusColor": "--accents-4",
+      "iconColor": "--geist-foreground",
+      "hoverIconColor": "--geist-foreground"
+    },
+    "ContextHelp": {
+      "fontSizeOffset": {
+        "os.windows": 0
+      }
+    },
+    "Counter": {
+      "background": "--geist-foreground",
+      "foreground": "--geist-background"
+    },
+    "DebuggerPopup.borderColor": "--accents-7",
+    "DebuggerTabs.selectedBackground": "--geist-foreground",
+    "DefaultTabs": {
+      "underlineColor": "--accents-3",
+      "inactiveUnderlineColor": "--accents-3",
+      "underlineHeight": 5,
+      "hoverBackground": "--accents-2"
+    },
+    "DragAndDrop": {
+      "borderColor": "--accents-3",
+      "rowBackground": "--accents-3",
+      "areaForeground": "--geist-foreground",
+      "areaBackground": "--accents-2",
+      "areaBorderColor": "--accents-3"
+    },
+    "Editor": {
+      "background": "--accents-2",
+      "foreground": "--accents-7",
+      "shortcutForeground": "--accents-5"
+    },
+    "EditorPane.inactiveBackground": "--geist-background",
+    "EditorTabs": {
+      "hoverBackground": "--accents-2",
+      "selectedForeground": "--geist-foreground",
+      "selectedBackground": "--accents-2",
+      "inactiveMaskColor": "--geist-background",
+      "underlineColor": "#FFF",
+      "underlineHeight": 1,
+      "underlinedTabBackground": "--accents-1",
+      "inactiveColoredFileBackground": "--geist-background"
+    },
+    "FileColor": {
+      "Yellow": "--accents-1",
+      "Green": "--accents-2",
+      "Blue": "--geist-background",
+      "Violet": "--accents-2",
+      "Orange": "--accents-3",
+      "Rose": "--accents-4",
+      "Gray": "--accents-2"
+    },
+    "FlameGraph": {
+      "JVMBackground": "--accents-5",
+      "JVMSearchNotMatchedBackground": "--accents-5",
+      "nativeBackground": "--accents-3",
+      "nativeSearchNotMatchedBackground": "--accents-3",
+      "parentBackground": "--geist-foreground",
+      "parentSearchNotMatchedBackground": "--accents-5",
+      "JVMFocusBackground": "--accents-3",
+      "JVMFocusSearchNotMatchedBackground": "--accents-3",
+      "nativeFocusBackground": "--accents-3",
+      "nativeFocusSearchNotMatchedBackground": "--accents-3",
+      "parentFocusBackground": "--accents-3",
+      "parentFocusSearchNotMatchedBackground": "--accents-3",
+      "JVMFrameForeground": "--geist-background",
+      "nativeFrameForeground": "--geist-background",
+      "parentFrameForeground": "--geist-background",
+      "JVMFocusedFrameForeground": "--geist-foreground",
+      "nativeFocusedFrameForeground": "--geist-foreground",
+      "parentFocusedFrameForeground": "--geist-foreground"
+    },
+    "IconBadge": {
+      "borderWidth": 1.5,
+      "dotRadius": 3.5,
+      "dotX": 16.5,
+      "dotY": 3.5,
+      "errorBackground": "--accents-5",
+      "warningBackground": "--accents-3",
+      "infoBackground": "--accents-3",
+      "successBackground": "--accents-2"
+    },
+    "InplaceRefactoringPopup": {
+      "background": "--accents-2",
+      "borderColor": "--accents-7"
+    },
+    "Link": {
+      "activeForeground": "--accents-5",
+      "hoverForeground": "--accents-5",
+      "pressedForeground": "--accents-5",
+      "visitedForeground": "--accents-5",
+      "secondaryForeground": "--accents-5"
+    },
+    "MemoryIndicator": {
+      "usedBackground": "--accents-3",
+      "allocatedBackground": "--accents-5"
+    },
+    "NavBar.borderColor": "--border",
+    "Notification": {
+      "background": "--geist-background",
+      "errorForeground": "--geist-foreground",
+      "errorBackground": "--accents-5",
+      "errorBorderColor": "--accents-5",
+      "MoreButton.innerBorderColor": "--border",
+      "ToolWindow": {
+        "informativeForeground": "--geist-foreground",
+        "informativeBackground": "--accents-2",
+        "informativeBorderColor": "--accents-7",
+        "warningForeground": "--geist-foreground",
+        "warningBackground": "--accents-3",
+        "warningBorderColor": "--accents-3",
+        "errorForeground": "--geist-foreground",
+        "errorBackground": "--accents-5",
+        "errorBorderColor": "--accents-5"
+      }
+    },
+    "NotificationsToolwindow": {
+      "newNotification.background": "--accents-2",
+      "newNotification.hoverBackground": "--accents-2"
+    },
+    "OptionButton": {
+      "default.separatorColor": "--geist-background",
+      "separatorColor": "--geist-foreground"
+    },
+    "Panel.mouseShortcutBackground": "--geist-background",
+    "ParameterInfo": {
+      "background": "--accents-2",
+      "foreground": "--geist-foreground",
+      "currentParameterForeground": "--geist-foreground",
+      "linkForeground": "--accents-5"
+    },
+    "ProgressBar": {
+      "background": "--accents-2",
+      "foreground": "--geist-foreground",
+      "failedColor": "--accents-5",
+      "failedEndColor": "--accents-5",
+      "trackColor": "--accents-3",
+      "indeterminateStartColor": "--geist-foreground",
+      "indeterminateEndColor": "--geist-foreground"
+    },
+    "ProgressBarX": {
+      "progressColor": "--geist-foreground",
+      "trackColor": "--accents-2"
+    },
+    "SearchEverywhere": {
+      "adBackground": "--geist-foreground",
+      "adForeground": "--geist-background",
+      "additionalInfoForeground": "--accents-5",
+      "searchFieldBackground": "--geist-background",
+      "separatorColor": "--accents-5"
+    },
+    "SearchMatch": {
+      "selectedBackground": "--accents-3",
+      "startColor": "--accents-6",
+      "endColor": "--accents-6"
+    },
+    "SearchTextArea": {
+      "errorBackground": "--accents-5",
+      "errorStripeColor": "--accents-5",
+      "warningBackground": "--accents-3",
+      "warningStripeColor": "--accents-3",
+      "warningForeground": "--accents-3",
+      "foundBackground": "--accents-2",
+      "selectionBackground": "--accents-1",
+      "selectionForeground": "--geist-foreground",
+      "occurrenceBackground": "",
+      "readBackground": "--accents-5"
+    },
+    "SearchTextField": {
+      "hoverBackground": "--accents-2",
+      "searchBackground": "--geist-background",
+      "searchForeground": "--geist-foreground"
+    },
+    "StatusBar": {
+      "hoverBackground": "--accents-1",
+      "Widget.borderColor": "--border",
+      "WidgetSeparator.color": "--accents-7",
+      "Breadcrumbs": {
+        "background": "--geist-background",
+        "currentPathForeground": "--geist-foreground",
+        "inactivePathForeground": "--accents-5",
+        "hoverBackground": "--accents-2"
+      },
+      "PathLabel.foreground": "--geist-foreground",
+      "pathLabel.hoverBackground": "--accents-1",
+      "PathLabel.errorForeground": "--accents-5"
+    },
+    "Startup": {
+      "progressColor": "--geist-foreground",
+      "trackColor": "--accents-2"
+    },
+    "Tab": {
+      "background": "--geist-background",
+      "focusColor": "--geist-background",
+      "hoverBackground": "--geist-background",
+      "borderColor": "--border",
+      "separatorColor": "--geist-background",
+      "focusBorderColor": "--accent2-2",
+      "hoverBorderColor": "--accents-2",
+      "hoverColor": "--geist-background",
+      "inactiveForeground": "--geist-foreground"
+    },
+    "Tag": {
+      "normalBackground": "--geist-background",
+      "attentionBackground": "--accents-3",
+      "borderColor": "--accents-7"
+    },
+    "Terminal": {
+      "background": "--geist-background",
+      "foreground": "--geist-foreground"
+    },
+    "Text": {
+      "areaSeparatorColor": "--border",
+      "borderColor": "--border",
+      "disabledBorderColor": "--accents-1",
+      "disabledBorderColorOpacity": 45,
+      "errorForeground": "--accents-5",
+      "focusedBorderColor": "--border",
+      "hintForeground": "--geist-foreground",
+      "inputSeparatorColor": "--geist-foreground",
+      "searchHighlightForeground": "--geist-foreground",
+      "selectedBackground": "--accents-2",
+      "selectionBackground": "--accents-2",
+      "secondaryForeground": "--geist-foreground"
+    },
+    "ToolTip": {
+      "background": "--accents-1",
+      "foreground": "--geist-foreground",
+      "borderColor": "--geist-foreground",
+      "separatorColor": "--geist-foreground",
+      "linkForeground": "--accents-5",
+      "Button.hoverBackground": "--geist-background"
+    },
+    "Tooltip.borderColor": "--accents-7",
+    "Tooltip.lineColor": "--accents-7",
+    "Tree": {
+      "background": "--geist-background",
+      "selectionInactiveForeground": "--accents-4",
+      "modifiedItemForeground": "--accents-5",
+      "hoverBackground": "--accents-2",
+      "selectionBackground": "--geist-background",
+      "selectionForeground": "--accents-6"
+    },
+    "TitledBorder.titleColor": "--geist-foreground",
+    "Todo": {
+      "defaultForeground": "--geist-foreground",
+      "defaultBackground": "--geist-background",
+      "lineColor": "--geist-foreground",
+      "checkColor": "--geist-foreground"
+    },
+    "ToolWindow": {
+      "Button.selectedBackground": "--accents-1",
+      "inactiveBackground": "--geist-background",
+      "background": "--geist-background",
+      "headerBorderColor": "--border",
+      "Header": {
+        "background": "--geist-background",
+        "inactiveBackground": "--accents-1"
+      }
+    },
+    "ToolWindowStripeButton": {
+      "selectedBackground": "--accents-2",
+      "hoverBackground": "--geist-background",
+      "inactiveForeground": "--accents-4"
+    },
+    "Tree.indentGuideColor": "--geist-background",
+    "VersionControl.Log.Commit": {
+      "hoveredBackground": "--accents-1",
+      "selectionBackground": "--accents-2"
+    },
+    "WelcomeScreen": {
+      "separatorColor": "--accents-7",
+      "background": "--geist-background",
+      "buttonColor": "--geist-background",
+      "linkColor": "--geist-foreground"
+    },
+    "WelcomeScreen.Projects.actions": {
+      "hoverBackground": "--accents-1",
+      "hoverForeground": "--geist-foreground",
+      "selectionBackground": "--accents-2"
+    },
+    "WelcomeScreen.ActionGroup": {
+      "hoverBackground": "--accents-1",
+      "selectedBackground": "--accents-2"
+    },
+    "Window": {
+      "borderColor": "--geist-background",
+      "focusedBorderColor": "--geist-foreground"
+    },
+    "Win10": {
+      "Header.background": "--geist-background",
+      "Selection.background": "--accents-1",
+      "Selection.borderColor": "--accents-5"
+    },
+    "Table.selectionInactiveBackground": "--accents-4"
+  },
+  "icons": {
+    "ColorPalette": {
+      "Actions.Grey": "#FFFFFF",
+      "Actions.Red": "#FF3633",
+      "Actions.Yellow": "#FFD333",
+      "Actions.Green": "#00E61F",
+      "Actions.Blue": "#00EAFF",
+      "Actions.GreyInline.Dark": "#FFFFFFFF",
+
+      "Objects.Grey": "#FFFFFFFF",
+      "Objects.RedStatus": "#FF4340FF",
+      "Objects.Red": "#FF4340FF",
+      "Objects.Pink": "#FF8FA2FF",
+      "Objects.Yellow": "#FFD333FF",
+      "Objects.Green": "#00E61FFF",
+      "Objects.Blue": "#00EAFFFF",
+      "Objects.Purple": "#A880FFFF",
+      "Objects.BlackText": "#000000FF",
+      "Objects.YellowDark": "#FFD333FF",
+      "Objects.GreenAndroid": "#00E61FFF",
+
+      "Checkbox.Background.Default.Dark": "#000000",
+      "Checkbox.Border.Default.Dark": "#FFFFFF",
+      "Checkbox.Foreground.Selected.Dark": "#FFFFFF",
+      "Checkbox.Focus.Wide.Dark": "#1AEBFF",
+      "Checkbox.Focus.Thin.Default.Dark": "#1AEBFF",
+      "Checkbox.Focus.Thin.Selected.Dark": "#1AEBFF",
+      "Checkbox.Background.Disabled.Dark": "#000000",
+      "Checkbox.Border.Disabled.Dark": "#AA6E28",
+      "Checkbox.Foreground.Disabled.Dark": "#AA6E28"
+    }
+  }
+}
