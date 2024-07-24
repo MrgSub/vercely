@@ -17,7 +17,7 @@
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
     <description><![CDATA[
-    Vercel-y styled theme pack
+    Vercel-y styled theme pack for JetBrains IDEs, based on the Vercel theme. Designed for Vercel lovers.
   ]]></description>
 
     <!-- Short summary of new features and bugfixes in the latest plugin version.
